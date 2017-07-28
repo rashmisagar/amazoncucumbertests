@@ -79,13 +79,13 @@ public class AmazonStepDefs{
     }
 
 
-    @Then("^I see the search results$")
+    @Then("^I verify the price for first 5 results$")
     public void iSeeTheSearchResults() throws Throwable {
         resultsPage.getSearchResults();
 
     }
 
-    @Given("^I am on the Results Page$")
+    @Given("^I see the search results page$")
     public void iAmOnTheResultsPage() throws Throwable {
         Assert.assertEquals(true, resultsPage.getResultsPageTitle().contains("iphone"));
     }

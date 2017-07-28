@@ -6,13 +6,15 @@ Feature: Amazon Shop for the cheapest item
   Scenario: Search an item
     Given Amazon Homepage is open
     When I search for item "iphone"
-    Then I see the search results
+    Then I see the search results page
+    And I verify the price for first 5 results
 
   Scenario: Sort item by Lowest Price
-    Given I see the search results
+    Given I see the search results page
     And I see the sort dropdown in results page
     When I select sort by Lowest Price
     Then I see the results sorted by Lowest Price
+    And I verify the price for first 5 results
 
   Scenario: Select First Lowest Price Product Result
     Given I see the results sorted by Lowest Price
