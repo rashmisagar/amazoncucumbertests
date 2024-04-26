@@ -1,4 +1,6 @@
-# amazoncucumbertests
+# java-selenium-cucumber-tests-demo
+
+E2E testing of Amazon website using Java, Selenium and Cucumber framework
 
 Prerequisite - 
 
