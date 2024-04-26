@@ -1,6 +1,6 @@
-# java-selenium-cucumber-tests-demo
+# java-selenium-cucumber-testng-tests
 
-E2E testing of Amazon website using Java, Selenium and Cucumber framework
+E2E testing of Amazon website using Java, Selenium, Cucumber and TestNG
 
 Prerequisite - 
 
